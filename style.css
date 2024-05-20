@@ -1,18 +1,15 @@
-body {
+body, html {
+    height: 100%;
+    margin: 0;
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    padding: 0 20px;
-}
+  }
 
-h1 {
+  h1 {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 h2{
@@ -30,13 +27,13 @@ h3{
   font-style: normal;
   text-align: left;
 }
-
-ul {
+  
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #41083b;
+    background-color: #000000;
   }
   
   li {
@@ -55,6 +52,85 @@ ul {
     background-color: #111;
   }
 
-  @media screen {
+  .bg-image {
+    height: 75%; 
     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+  .img1 { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.webshopapp.com/shops/263001/files/403712626/nike-x-stussy-release-information.jpg"); }
+    .img1 a {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+  .img2 { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.gq-magazine.co.uk/photos/5e79ff1106bab00008958066/16:9/pass/20200324-nike-03.jpg"); }
+    .img2 a {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+  .img3 { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cms-cdn.thesolesupplier.co.uk/2022/05/nike-x-stussy-washed-popover-hoodie-black-face.jpg"); }
+    .img3 a {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+  .img4 { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cms-cdn.thesolesupplier.co.uk/2023/02/nikexstussyupdate1.jpg"); }
+    .img4 a {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+  .img5 { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.gq-magazine.co.uk/photos/62e94c4b162cb5782b59ed13/4:3/w_2716,h_2037,c_limit/Stussy%20Nike%20-%20SU22%20-%201200x15009.jpg"); }
+    .img5 a {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+  .img6 { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://mensflair.com/wp-content/uploads/2023/02/stussy-brand-guide-2.jpg"); }
+    .img6 a {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+
+  /* código de https://www.w3schools.com/howto/howto_css_bg_change_scroll.asp ; https://www.w3schools.com/howto/howto_css_parallax.asp */
