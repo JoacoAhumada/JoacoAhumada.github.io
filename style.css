@@ -23,6 +23,14 @@ h2{
     text-align: left;
 }
 
+h3{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
