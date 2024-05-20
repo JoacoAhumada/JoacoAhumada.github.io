@@ -33,7 +33,7 @@ h3{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color: #41083b;
   }
   
   li {
@@ -65,7 +65,7 @@ h3{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://cdn.webshopapp.com/shops/263001/files/403712626/nike-x-stussy-release-information.jpg"); }
+    background-image: url('3.jpg'); }
     .img1 a {
       width: 100%;
       height: 100%;
@@ -131,6 +131,7 @@ h3{
       height: 100%;
       display: block;
     }
+
 
 
   /* código de https://www.w3schools.com/howto/howto_css_bg_change_scroll.asp ; https://www.w3schools.com/howto/howto_css_parallax.asp */
