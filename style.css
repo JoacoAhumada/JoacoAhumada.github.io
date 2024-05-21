@@ -140,6 +140,28 @@ h3{
   }
 }
 
+.sobre-mi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  padding: 150px;
+  box-sizing: border-box;
+}
+
+.sobre-mi img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.sobre-mi p {
+  font-size: medium;
+  line-height: 1.5;
+}
+
 
 
   /* código de https://www.w3schools.com/howto/howto_css_bg_change_scroll.asp ; https://www.w3schools.com/howto/howto_css_parallax.asp */
