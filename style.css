@@ -54,11 +54,11 @@ h3{
 
   .bg-image {
     height: 75%; 
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
 
   .img1 { 
     background-attachment: fixed;
@@ -131,6 +131,14 @@ h3{
       height: 100%;
       display: block;
     }
+
+    @media only screen and (max-width: 600px) {
+ .bg-image {
+    width: 100%; /* ancho para pantalla de celular */
+    height: 150px; /* alto para pantalla de celular */
+    margin: 5px; /* margen entre elementos para pantalla de celular */
+  }
+}
 
 
 
