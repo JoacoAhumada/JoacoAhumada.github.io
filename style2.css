@@ -1,0 +1,130 @@
+/* estilos básicos*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+  }
+
+  h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;  
+    margin-top: 5%;
+}
+
+h2{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+}
+
+h3{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+}
+
+h4{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  text-align: center;
+
+}
+  
+/* estilos de about*/
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+
+}
+.about-us {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #fff;
+}
+.pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.about {
+  width: 900px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text {
+  width: 540px;
+}
+.text h2 {
+  color: #333;
+  font-size: 75px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.text h5 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.text p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.data {
+  margin-top: 30px;
+}
+
+
+/* estilo del navbar */
+
+header {
+  background-color: #000000;
+  padding: 10px 0;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+}
+
+  /* código de https://www.w3schools.com/howto/howto_css_bg_change_scroll.asp ; https://www.w3schools.com/howto/howto_css_parallax.asp */
